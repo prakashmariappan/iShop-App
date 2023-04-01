@@ -10,7 +10,7 @@ const Cards = ({item, handleClick }) => {
                 <div className="fillcart hfc"></div>
             </div>
            <div className='imagebox'>
-                <img src={image} alt="Image" />
+                <img alt='' src={image}></img>
             </div>
             <div className='deatils'>
                 <p className='name'>{title}</p>

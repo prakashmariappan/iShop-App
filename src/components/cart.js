@@ -17,7 +17,7 @@ const Cart = ({cart, price,handleremove, handlechange})=>{
         <div className="ccproduct">
             <button className="remove" onClick={()=>handleremove(item.id)}>X</button>
             <div className="cartimg">
-                <img className="imgsize" src={item.image}></img>
+                <img alt="" className="imgsize" src={item.image}></img>
                 <p className="itm_p">{item.title}</p>
             </div>
 
