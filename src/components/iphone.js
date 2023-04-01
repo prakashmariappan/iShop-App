@@ -4,8 +4,8 @@ import list from "../data";
 
 const Iphone = ({handleClick})=>{
     return(<>
-    <div class="storeHeader">
-        <div class="storeHeaderitem">
+    <div className="storeHeader">
+        <div className="storeHeaderitem">
             <span>iphone</span>
         </div>
     </div>

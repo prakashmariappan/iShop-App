@@ -3,62 +3,62 @@ import Cards from "./homecomponents/cards";
 import list from "../data";
 const Store = ({handleClick})=>{
     return(<>
-    <div class="storeHeader">
-        <div class="storeHeaderitem">
+    <div className="storeHeader">
+        <div className="storeHeaderitem">
             <span>Store</span>
-            <span class="forwerd">/</span>
+            <span className="forwerd">/</span>
             <span>Accesories</span>
         </div>
     </div>
     <div className="storeHome">
         <div className="storeHomeLeft">
-            <div class="storeleftCard">
+            <div className="storeleftCard">
                 <h3>ACCESORIES</h3>
-                <p class="appleCar">
+                <p className="appleCar">
                     <span>Apple Car</span>
                     <span>2</span>
                 </p>
-                <p class="appleCar">
+                <p className="appleCar">
                     <span>Air port &amp; wireless</span>
                     <span>48</span>
                 </p>
-                <p class="appleCar">
+                <p className="appleCar">
                     <span>Cables & Docks</span>
                     <span>14</span>
                 </p>
-                <p class="appleCar">
+                <p className="appleCar">
                     <span>Cases & Films</span>
                     <span>15</span>
                 </p>
-                <p class="appleCar">
+                <p className="appleCar">
                     <span>Charging Devices</span>
                     <span>23</span>
                 </p>
-                <p class="appleCar">
+                <p className="appleCar">
                     <span>Connected home</span>
                     <span>1</span> 
                 </p>
-                <p class="appleCar">
+                <p className="appleCar">
                     <span>Headphones</span>
                     <span>95</span>
                 </p>
             </div>
-            <div class="storePrices">
-                <h3 class="prices">PRICES</h3>
-                <div class="ranges">
-                    <p class="ranges">Ranger</p>
+            <div className="storePrices">
+                <h3 className="prices">PRICES</h3>
+                <div className="ranges">
+                    <p className="ranges">Ranger</p>
                     <p>$13.99-$25.99</p>
                 </div>
-                <div class="doubleRange">
-                    <span class="MuiSlider-root MuiSlider-colorPrimary"></span>
-                    <span class="MuiSlider-rail"></span>
-                    <span class="MuiSlider-track" ></span>
+                <div className="doubleRange">
+                    <span className="MuiSlider-root MuiSlider-colorPrimary"></span>
+                    <span className="MuiSlider-rail"></span>
+                    <span className="MuiSlider-track" ></span>
                     <input type="hidden" value="10,60">
                     </input>
                 </div>
             </div>
-            <div class="color">
-                <h3 class="colorName">COLOR</h3>
+            <div className="color">
+                <h3 className="colorName">COLOR</h3>
                 <div className="colorselect">
                     <div className="circle c1"></div>
                     <div className="circle c2"></div>
@@ -68,49 +68,49 @@ const Store = ({handleClick})=>{
                     <div className="circle c6"></div>
                 </div>
             </div> 
-            <div class="storeleftCard">
+            <div className="storeleftCard">
                 <h3>BRAND</h3>
-                <p class="appleCar">
+                <p className="appleCar">
                     <span>Apple</span>
                     <span>5</span>
                 </p>
-                <p class="appleCar">
+                <p className="appleCar">
                     <span>LG</span>
                     <span>8</span>
                 </p>
-                <p class="appleCar">
+                <p className="appleCar">
                     <span>Samsung</span>
                     <span>12</span>
                 </p>
-                <p class="appleCar">
+                <p className="appleCar">
                     <span>Siemens</span>
                     <span>15</span>
                 </p>
             </div>
-            <div class="moreStore">MORE</div>
+            <div className="moreStore">MORE</div>
         </div>
         <div className="storeHomeRight">
-            <div class="bigBannerStore">
-                <div class="bigLeftStore">
-                    <p class="bigLeftPara1">iPhone 8</p>
-                    <p class="bigLeftPara2">Performance and design. Taken right to the edge.</p>
-                    <p class="shopNowButton">shop Now</p>
+            <div className="bigBannerStore">
+                <div className="bigLeftStore">
+                    <p className="bigLeftPara1">iPhone 8</p>
+                    <p className="bigLeftPara2">Performance and design. Taken right to the edge.</p>
+                    <p className="shopNowButton">shop Now</p>
                 </div>
-                <div class="bigRight">
-                    <div class="mpImage"></div>
+                <div className="bigRight">
+                    <div className="mpImage"></div>
                 </div>
             </div>
-            <div class="storePart2">
-                <div class="storePart2left">
-                    <div class="itemCounts">13 items</div>
-                    <div class="sortBy">
+            <div className="storePart2">
+                <div className="storePart2left">
+                    <div className="itemCounts">13 items</div>
+                    <div className="sortBy">
                         <label for="sortBy">Sort By</label>
                         <select name="sort" id="sortBy">
                             <option value="0">Name</option>
                             <option value="1">Price</option>
                         </select>
                     </div>
-                    <div class="showItem">
+                    <div className="showItem">
                         <label for="show">Show</label>
                         <select name="show" id="show">
                             <option value="0">1</option>
